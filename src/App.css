@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  width: 80vw;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.process {
+  background-color: #44A8FF;
+  color: white;
+  border: none;
+  margin-top: 4vh;
+  padding: .5em 1.5em;
+  border-radius: 4px;
+}
+
+.reset {
+  background-color: #F25164;
+  color: white;
+  border: none;
+  margin-top: 4vh;
+  padding: .5em 1.5em;
+  border-radius: 4px;
 }
